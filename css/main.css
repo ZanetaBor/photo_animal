@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+body {
+    background-color: antiquewhite;
+
+}
+
+.grid{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(auto-fill, minmax(0,400px));
+    justify-content: center;
+}
+
+.photo-img {
+    max-width: 100%;
+}
+
+.grid figcaption {
+    padding: 20px;     
+}
+
+.photo-place {
+    display: grid;
+    background-color: bisque;
+    justify-items: center;
+    grid-gap: 10px;
+}
+
